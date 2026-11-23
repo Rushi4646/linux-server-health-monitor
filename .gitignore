@@ -1,0 +1,6 @@
+venv/
+monitor.log
+cron.out
+metrics.db
+test.txt
+__pycache__/
