@@ -21,5 +21,11 @@ python monitor.py
 ## Run automatically with cron
 */5 * * * * cd /path/to/server-monitor && ./venv/bin/python monitor.py >> cron.out 2>&1
 
+## Sample Output
+![Sample output](screenshot.png)
+
+## Note
+Service names differ between Linux families: use `ssh` and `cron` on Kali/Debian, and `sshd` and `crond` on RHEL/Rocky. Change the SERVICES list in monitor.py accordingly.
+
 ## Author
 Rushikesh Hindule
